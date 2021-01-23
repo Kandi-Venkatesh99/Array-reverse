@@ -1,0 +1,11 @@
+def rev(a):
+    for i in range(len(a)-1,-1,-1):
+        print(a[i])
+    
+    
+a=[12,56,89,6,3,25,55]
+rev(a)
+
+method - 2
+
+print(a[::-1])
